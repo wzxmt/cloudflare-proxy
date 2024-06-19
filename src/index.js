@@ -11,7 +11,7 @@ const routes = {
   "k8s.wzxmt.xyz": "https://registry.k8s.io",
   "ghcr.wzxmt.xyz": "https://ghcr.io",
   "cloudsmith.wzxmt.xyz": "https://docker.cloudsmith.io",
-  "pypi.boown.com": "https://pypi.org",
+  "pypi.wzxmt.xyz": "https://pypi.org",
   "npmjs.wzxmt.xyz": "https://registry.npmjs.org",
   "cnpmjs.wzxmt.xyz": "http://r.cnpmjs.org",
 };
