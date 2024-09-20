@@ -6,16 +6,16 @@ addEventListener("fetch", (event) => {
 const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
-  "646f636b6572.boown.com": dockerHub,
-  "71756179.boown.com": "https://quay.io",
-  "676372.boown.com": "https://gcr.io",
-  "6b38732d676372.boown.com": "https://k8s.gcr.io",
-  "6b3873.boown.com": "https://registry.k8s.io",
-  "67686372.boown.com": "https://ghcr.io",
-  "636c6f7564736d697468.boown.com": "https://docker.cloudsmith.io",
-  "70797069.boown.com": "https://pypi.org",
-  "6e706d6a73.boown.com": "https://registry.npmjs.org",
-  "636e706d6a73.boown.com": "http://r.cnpmjs.org",
+  "docker.wzxmt.xyz": dockerHub,
+  "quay.wzxmt.xyz": "https://quay.io",
+  "gcr.wzxmt.xyz": "https://gcr.io",
+  "k8sgcr.wzxmt.xyz": "https://k8s.gcr.io",
+  "registry.wzxmt.xyz": "https://registry.k8s.io",
+  "ghcr.wzxmt.xyz": "https://ghcr.io",
+  "cloudsmith.wzxmt.xyz": "https://docker.cloudsmith.io",
+  "pypi.wzxmt.xyz": "https://pypi.org",
+  "npmjs.wzxmt.xyz": "https://registry.npmjs.org",
+  "cnpmjs.wzxmt.xyz": "http://r.cnpmjs.org",
 };
 
 function routeByHosts(host) {
